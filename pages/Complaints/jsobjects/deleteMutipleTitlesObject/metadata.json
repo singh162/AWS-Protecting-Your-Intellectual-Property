@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6773be2ac83f61054013ba46_d2130274-dac9-4fb4-9531-87b7b5d73bf3",
+  "id": "Complaints_deleteMutipleTitlesObject",
+  "unpublishedCollection": {
+    "name": "deleteMutipleTitlesObject",
+    "pageId": "Complaints",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

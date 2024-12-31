@@ -1,0 +1,2 @@
+DELETE FROM test_taoq_reach.password_reset_otp
+      WHERE email = '{{this.params.email}}';

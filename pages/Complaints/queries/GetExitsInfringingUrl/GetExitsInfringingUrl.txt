@@ -1,0 +1,1 @@
+SELECT complaint_form_id FROM test_taoq_reach.complaints_form where infringing_url = '{{this.params.infringing_url}}';

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6773be2ac83f61054013ba46_2d945b46-8684-41b1-96e8-b3ee0aa22b6c",
+  "id": "Complaints_validateTitles",
+  "unpublishedCollection": {
+    "name": "validateTitles",
+    "pageId": "Complaints",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,1 @@
+SELECT username , email FROM test_taoq_reach.rightHolder WHERE id = '{{appsmith.store.rightHolderUserId}}' LIMIT 1;

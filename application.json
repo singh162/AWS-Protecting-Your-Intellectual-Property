@@ -4,33 +4,59 @@
     "appPositioning": {
       "type": "FIXED"
     },
-    "navigationSetting": {},
-    "themeSetting": {
-      "appMaxWidth": "LARGE",
-      "density": 1.0,
-      "sizing": 1.0
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
     }
   },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
-  "color": "#E3DEFF",
+  "color": "#C7F3E3",
   "evaluationVersion": 2,
-  "icon": "cat",
+  "icon": "family",
   "pages": [
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Login",
+      "isDefault": true
+    },
+    {
+      "id": "Registeration",
+      "isDefault": false
+    },
+    {
+      "id": "Complaints",
+      "isDefault": false
+    },
+    {
+      "id": "VerifyEmail",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
     },
-    "navigationSetting": {},
-    "themeSetting": {
-      "appMaxWidth": "LARGE",
-      "density": 1.0,
-      "sizing": 1.0
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
     }
   }
 }

@@ -1,0 +1,3 @@
+SELECT count(*)  as count FROM test_taoq_reach.complaints_form 
+INNER JOIN rightHolderProfile on rightHolderProfile.rightHolderUserId = complaints_form.rightHolderUserId
+where rightHolderProfile.company_name ='{{Input12.text}}';

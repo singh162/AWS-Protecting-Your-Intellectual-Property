@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6773be2ac83f61054013ba46_79ddbbed-f019-4f67-b2ec-733a4d503a4a",
+  "id": "Registeration_validateTitles",
+  "unpublishedCollection": {
+    "name": "validateTitles",
+    "pageId": "Registeration",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

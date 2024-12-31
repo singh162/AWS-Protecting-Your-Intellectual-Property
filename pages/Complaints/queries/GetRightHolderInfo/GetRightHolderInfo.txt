@@ -1,0 +1,1 @@
+SELECT * FROM test_taoq_reach.rightHolderProfile where rightHolderUserId='{{appsmith.store.rightHolderUserId}}';
