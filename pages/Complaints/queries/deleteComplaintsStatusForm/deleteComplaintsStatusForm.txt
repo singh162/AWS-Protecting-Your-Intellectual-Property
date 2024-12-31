@@ -1,0 +1,1 @@
+delete from test_taoq_reach.complaint_status where complaint_status_id ={{this.params.complaint_status_id}};

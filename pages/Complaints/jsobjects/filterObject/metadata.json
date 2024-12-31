@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "66fbe909af2b8e5a2a63f83d_b7923d43-6281-4444-9594-b639c61406c0",
+  "id": "Complaints_filterObject",
+  "unpublishedCollection": {
+    "name": "filterObject",
+    "pageId": "Complaints",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "filterArray",
+        "value": "[{\n  name: \"\",\n  code: \"\"\n}]"
+      }
+    ]
+  }
+}

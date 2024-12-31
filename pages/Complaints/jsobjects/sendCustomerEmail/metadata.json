@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66fbe909af2b8e5a2a63f83d_657df910-44df-497f-9a24-2e084d7e7070",
+  "id": "Complaints_sendCustomerEmail",
+  "unpublishedCollection": {
+    "name": "sendCustomerEmail",
+    "pageId": "Complaints",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

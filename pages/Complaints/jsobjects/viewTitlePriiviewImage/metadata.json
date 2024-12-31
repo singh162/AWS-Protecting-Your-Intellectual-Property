@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "66fbe909af2b8e5a2a63f83d_55be33b6-b57a-4246-b07d-06d9573a522c",
+  "id": "Complaints_viewTitlePriiviewImage",
+  "unpublishedCollection": {
+    "name": "viewTitlePriiviewImage",
+    "pageId": "Complaints",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "index",
+        "value": "0"
+      }
+    ]
+  }
+}

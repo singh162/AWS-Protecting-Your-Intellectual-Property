@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "66fbe909af2b8e5a2a63f83d_8fc91715-6bef-4ca8-8e05-b0ea498543d5",
+  "id": "Registeration_viewTitlesObject",
+  "unpublishedCollection": {
+    "name": "viewTitlesObject",
+    "pageId": "Registeration",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "titleData",
+        "value": "[]"
+      },
+      {
+        "name": "countData",
+        "value": "0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+DELETE from test_taoq_reach.complaints_title WHERE id in ({{this.params.selectedIds}});

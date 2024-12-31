@@ -1,0 +1,2 @@
+DELETE FROM test_taoq_reach.rightHolderProfile
+WHERE id = '{{this.params.id}}';

@@ -1,0 +1,1 @@
+SELECT id,username FROM test_taoq_reach.rightHolder WHERE email = '{{this.params.email}}';

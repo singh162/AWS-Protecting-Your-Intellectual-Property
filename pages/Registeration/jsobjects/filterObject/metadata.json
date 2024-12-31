@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "66fbe909af2b8e5a2a63f83d_c69df763-4335-4288-ace7-76b9cc212114",
+  "id": "Registeration_filterObject",
+  "unpublishedCollection": {
+    "name": "filterObject",
+    "pageId": "Registeration",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "filterArray",
+        "value": "[{\n  name: \"\",\n  code: \"\"\n}]"
+      }
+    ]
+  }
+}

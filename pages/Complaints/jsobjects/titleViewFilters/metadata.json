@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "66fbe909af2b8e5a2a63f83d_4b600d9e-1ea5-495f-b5b8-32030af8e376",
+  "id": "Complaints_titleViewFilters",
+  "unpublishedCollection": {
+    "name": "titleViewFilters",
+    "pageId": "Complaints",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "whereFilter",
+        "value": "\"\""
+      }
+    ]
+  }
+}

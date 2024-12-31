@@ -1,0 +1,2 @@
+SELECT expire_at FROM test_taoq_reach.rightHolder
+WHERE id = '{{this.params.id}}';

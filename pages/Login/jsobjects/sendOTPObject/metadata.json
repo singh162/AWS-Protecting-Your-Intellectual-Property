@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "66fbe909af2b8e5a2a63f83d_d19159bf-ddf3-4dd4-be40-f65b326ef54a",
+  "id": "Login_sendOTPObject",
+  "unpublishedCollection": {
+    "name": "sendOTPObject",
+    "pageId": "Login",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resendOtp",
+        "value": "true"
+      },
+      {
+        "name": "isSendOtp",
+        "value": "false"
+      },
+      {
+        "name": "OTP_EXPIRATION_TIME",
+        "value": "5 * 60 * 1000"
+      }
+    ]
+  }
+}

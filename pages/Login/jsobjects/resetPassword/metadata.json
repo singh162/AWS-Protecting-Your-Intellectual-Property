@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66fbe909af2b8e5a2a63f83d_b84037fb-5cef-4bc1-823e-fc546cc6845b",
+  "id": "Login_resetPassword",
+  "unpublishedCollection": {
+    "name": "resetPassword",
+    "pageId": "Login",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66fbe909af2b8e5a2a63f83d_add00661-99cc-4bbe-a736-9de7f66609d6",
+  "id": "Complaints_updateTitlesObject",
+  "unpublishedCollection": {
+    "name": "updateTitlesObject",
+    "pageId": "Complaints",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66fbe909af2b8e5a2a63f83d_0e057bbf-e56e-4253-aaa5-eba17d2b02f3",
+  "id": "Complaints_imageParsing",
+  "unpublishedCollection": {
+    "name": "imageParsing",
+    "pageId": "Complaints",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
