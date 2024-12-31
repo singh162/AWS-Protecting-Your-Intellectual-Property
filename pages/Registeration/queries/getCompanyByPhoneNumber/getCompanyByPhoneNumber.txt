@@ -1,3 +1,0 @@
-SELECT company_name as name
-FROM test_taoq_reach.rightHolderProfile
-WHERE phoneNumber = '{{Select1.selectedOptionLabel}}-{{phoneNumber.text}}' LIMIT 1;

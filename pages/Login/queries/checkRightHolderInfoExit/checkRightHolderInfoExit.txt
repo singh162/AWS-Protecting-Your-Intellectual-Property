@@ -1,1 +1,0 @@
-select id,Status,rightHolderName from rightHolderProfile WHERE rightHolderUserId = '{{this.params.id}}'

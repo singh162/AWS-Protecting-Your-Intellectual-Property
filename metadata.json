@@ -1,58 +1,6 @@
 {
-  "appIsExample": false,
-  "applicationDetail": {
-    "appPositioning": {
-      "type": "FIXED"
-    },
-    "navigationSetting": {
-      "colorStyle": "theme",
-      "itemStyle": "text",
-      "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
-      "navStyle": "stacked",
-      "orientation": "top",
-      "position": "static",
-      "showNavbar": false,
-      "showSignIn": true
-    }
-  },
-  "applicationVersion": 2,
-  "collapseInvisibleWidgets": true,
-  "color": "#C7F3E3",
-  "evaluationVersion": 2,
-  "icon": "family",
-  "pages": [
-    {
-      "id": "Login",
-      "isDefault": true
-    },
-    {
-      "id": "Registeration",
-      "isDefault": false
-    },
-    {
-      "id": "Complaints",
-      "isDefault": false
-    },
-    {
-      "id": "VerifyEmail",
-      "isDefault": false
-    }
-  ],
-  "unpublishedApplicationDetail": {
-    "appPositioning": {
-      "type": "FIXED"
-    },
-    "navigationSetting": {
-      "colorStyle": "theme",
-      "itemStyle": "text",
-      "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
-      "navStyle": "stacked",
-      "orientation": "top",
-      "position": "static",
-      "showNavbar": false,
-      "showSignIn": true
-    }
-  }
+  "artifactJsonType": "APPLICATION",
+  "clientSchemaVersion": 1,
+  "fileFormatVersion": 5,
+  "serverSchemaVersion": 11
 }

@@ -1,1 +1,0 @@
-SELECT count(*) as count FROM complaints_title where rightHolderUserId ='{{appsmith.store.rightHolderUserId}}'and complaints_title.name like '%{{Table1.searchText || ""}}%' {{titleViewFilters.whereFilter}};

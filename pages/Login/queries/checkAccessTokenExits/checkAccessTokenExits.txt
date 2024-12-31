@@ -1,2 +1,0 @@
-SELECT * FROM test_taoq_reach.right_holder_email_verification
-WHERE rightHolder_id = '{{this.params.user_id}}';

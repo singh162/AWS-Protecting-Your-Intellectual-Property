@@ -1,3 +1,0 @@
-UPDATE test_taoq_reach.rightHolderProfile
-SET document= FROM_BASE64('{{this.params.indentificationProff}}')
-WHERE id = '{{this.params.id}}';

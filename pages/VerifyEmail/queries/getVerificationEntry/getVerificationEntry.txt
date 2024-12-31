@@ -1,1 +1,0 @@
-SELECT * FROM test_taoq_reach.right_holder_email_verification WHERE token = '{{this.params.token}}';

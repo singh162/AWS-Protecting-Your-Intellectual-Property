@@ -1,3 +1,0 @@
-UPDATE test_taoq_reach.rightHolderProfile
-SET copyRightLetter= FROM_BASE64('{{this.params.copyRightLetter}}')
-WHERE id = '{{this.params.id}}';

@@ -1,1 +1,0 @@
-{{CreateAccount.exitQuery?CreateAccount.exitQuery:login.exitQuery}}
