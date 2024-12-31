@@ -28,10 +28,6 @@
   "icon": "family",
   "pages": [
     {
-      "id": "Page1",
-      "isDefault": true
-    },
-    {
       "id": "Login",
       "isDefault": true
     },
