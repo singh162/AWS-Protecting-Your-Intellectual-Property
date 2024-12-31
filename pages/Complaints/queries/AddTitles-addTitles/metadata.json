@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6773be2ac83f61054013ba46_1a95f943-36e1-4134-86ab-7ae5bd19efef",
-  "id": "Complaints_AddTitles.generateEmailTitleTemplate",
+  "gitSyncId": "6773c710c83f61054013bc2b_0826ce6f-d89a-44ab-80ec-dd8544687465",
+  "id": "Complaints_AddTitles.addTitles",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -23,8 +23,8 @@
       }
     ],
     "executeOnLoad": false,
-    "fullyQualifiedName": "AddTitles.generateEmailTitleTemplate",
-    "name": "generateEmailTitleTemplate",
+    "fullyQualifiedName": "AddTitles.addTitles",
+    "name": "addTitles",
     "pageId": "Complaints",
     "userSetOnLoad": false
   }
