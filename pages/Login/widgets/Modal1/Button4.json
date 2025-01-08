@@ -23,7 +23,7 @@
       "key": "onClick"
     }
   ],
-  "googleRecaptchaKey": "6Lck7ncqAAAAAEMI7fIJtGn0J1sLDg6cPAGLzX_p",
+  "googleRecaptchaKey": "",
   "hideCard": false,
   "iconSVG": "/static/media/icon.7a418b9e1899a550d7e8f33b48cbde12.svg",
   "isDefaultClickDisabled": true,
