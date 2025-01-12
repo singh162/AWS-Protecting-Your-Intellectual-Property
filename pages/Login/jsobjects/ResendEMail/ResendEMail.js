@@ -24,15 +24,17 @@ export default {
 			}
 			else
 			{
-
 				const tokenPayload = {
 					id: verifyId,
 					user_id: appsmith.store.rightHolderUserId,
 					token: verificationToken,
 					expire_at: verificationExpires
 				};
+				console.log("exiting",tokenPayload);
+
 				await Insert_Verification_Token.run(tokenPayload);
 			}
+			await storeValue("emailVerifyToken",verificationToken);
 			await verifyEmail.run(); // Run the email verification function
 			closeModal(Modal7Copy.name);
 			showModal(Modal7.name);
