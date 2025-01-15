@@ -19,7 +19,7 @@
   "flexVerticalAlignment": "start",
   "hideCard": false,
   "iconSVG": "/static/media/icon.fdb987a7ceacf7001426460138f7cd09.svg",
-  "image": "{{Table1Copy.triggeredRow.ownershipImage}}",
+  "image": "data:image/;base64,{{getTitleImageQuery.data[0].ownershipImage}}",
   "imageShape": "RECTANGLE",
   "isDeprecated": false,
   "isLoading": false,

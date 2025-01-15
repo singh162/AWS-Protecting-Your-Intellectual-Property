@@ -33,14 +33,14 @@
   "columnOrder": [
     "InsertedDate",
     "name",
-    "ownershipImage",
+    "customColumn3",
     "id",
     "Status",
     "rejectedReason",
     "customColumn1",
     "customColumn2"
   ],
-  "columnUpdatedAt": 1734254382121,
+  "columnUpdatedAt": 1736929459830,
   "columnWidthMap": {
     "customColumn1": 143,
     "name": 254,
@@ -70,9 +70,6 @@
       "key": "primaryColumns.name.computedValue"
     },
     {
-      "key": "primaryColumns.ownershipImage.computedValue"
-    },
-    {
       "key": "primaryColumns.id.computedValue"
     },
     {
@@ -98,6 +95,15 @@
     },
     {
       "key": "primaryColumns.InsertedDate.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn3.boxShadow"
+    },
+    {
+      "key": "primaryColumns.customColumn3.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn3.buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -112,12 +118,12 @@
     },
     {
       "key": "onSearchTextChanged"
+    },
+    {
+      "key": "primaryColumns.customColumn3.onClick"
     }
   ],
   "dynamicTriggerPathList": [
-    {
-      "key": "primaryColumns.ownershipImage.onClick"
-    },
     {
       "key": "primaryColumns.customColumn2.onClick"
     },
@@ -129,6 +135,9 @@
     },
     {
       "key": "onSearchTextChanged"
+    },
+    {
+      "key": "primaryColumns.customColumn3.onClick"
     }
   ],
   "enableClientSideSearch": true,
@@ -319,6 +328,45 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
+    "customColumn3": {
+      "alias": "Owership Image",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "iconButton",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "iconName": "eye-open",
+      "id": "customColumn3",
+      "index": 6,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Owership Image",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{getTitleImageQuery.run().then(() => {\n\tshowModal(Modal9.name);\n});}}",
+      "originalId": "customColumn3",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
     "id": {
       "alias": "id",
       "allowCellWrapping": false,
@@ -379,41 +427,6 @@
       "label": "Title Name",
       "notation": "standard",
       "originalId": "name",
-      "sticky": "",
-      "textColor": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
-    "ownershipImage": {
-      "alias": "ownershipImage",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
-      "columnType": "image",
-      "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( 'data:image/png;base64,' + currentRow[\"ownershipImage\"]))}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "fontStyle": "",
-      "horizontalAlignment": "LEFT",
-      "id": "ownershipImage",
-      "index": 2,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": true,
-      "label": "Owership Image",
-      "notation": "standard",
-      "onClick": "{{showModal(Modal9.name);}}",
-      "originalId": "ownershipImage",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
