@@ -16,6 +16,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -43,7 +48,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{DeleteTitles.run().then(() => {\n  showAlert('Title Deleted Sucessfully', 'success');\n  getTitlesServerFilters.run();\n  closeModal(Modal10.name);\n  countTitles.run();\n});}}",
+  "onClick": "{{DeleteTitles.run().then(() => {\n\tshowAlert('Title Deleted Sucessfully', 'success');\n\tviewTitlesObject.viewTitle();\n\tcloseModal(Modal10.name);\n\tcountTitles.run();\n});}}",
   "originalBottomRow": 22,
   "originalTopRow": 18,
   "parentId": "af26rcbkj9",

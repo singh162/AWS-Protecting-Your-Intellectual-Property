@@ -16,6 +16,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -43,7 +48,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{deleteMutipleTitlesObject.deleteMutipleTitles().then(() => {\n  getAllTitlesByRightHolder.run();\n  closeModal(Modal14.name);\n  countTitles.run();\n});}}",
+  "onClick": "{{deleteMutipleTitlesObject.deleteMutipleTitles().then(() => {\n\tviewTitlesObject.viewTitle();\n\tcloseModal(Modal14.name);\n\tcountTitles.run();\n});}}",
   "parentId": "y32ur60e4a",
   "placement": "CENTER",
   "recaptchaType": "V3",
