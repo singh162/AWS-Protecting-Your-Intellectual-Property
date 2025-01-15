@@ -1,0 +1,1 @@
+SELECT ownershipImage FROM complaints_title where id = '{{Table1.triggeredRow.id}}';

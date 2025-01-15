@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "6773be2ac83f61054013ba46_d38fd468-0d64-4f9e-aab7-462bf58719eb",
-  "id": "Registeration_getAllTitlesByRightHolder",
+  "gitSyncId": "6773c710c83f61054013bc2b_72620a64-e29e-439c-a03e-ac8a32caa87a",
+  "id": "Registeration_getTitleImageQuery",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT id, name,Status,inserted_at as InsertedDate  FROM complaints_title where rightHolderUserId = '{{appsmith.store.rightHolderUserId}}'\n and complaints_title.name like '%{{Table1.searchText || \"\"}}%' {{titleViewFilters.whereFilter}}\nORDER BY {{Table1.sortOrder.column || 'complaints_title.inserted_at'}} {{Table1.sortOrder.order || \"DESC\"}};",
+      "body": "SELECT ownershipImage FROM complaints_title where id = '{{Table1.triggeredRow.id}}';",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,8 +27,8 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
-    "name": "getAllTitlesByRightHolder",
+    "executeOnLoad": true,
+    "name": "getTitleImageQuery",
     "pageId": "Registeration",
     "userSetOnLoad": false
   }
