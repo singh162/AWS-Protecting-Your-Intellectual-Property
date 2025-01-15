@@ -1,1 +1,1 @@
-SELECT * FROM test_taoq_reach.rightHolderProfile where rightHolderUserId='{{appsmith.store.rightHolderUserId}}';
+SELECT fullName,rightHolderName,email, company_name,phoneNumber,address,city,state,country,digitalSignature,document,copyRightLetter,contentOwnerShip,Status,reasonStatus,rightHolderUserId FROM test_taoq_reach.rightHolderProfile where rightHolderUserId='{{appsmith.store.rightHolderUserId}}';
