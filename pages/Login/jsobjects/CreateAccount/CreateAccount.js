@@ -40,6 +40,14 @@ export default {
 			isValid = false;
 			showAlert("Password is required", "error");
 		}
+		if(!ConfirmPasswordInput.text){
+			isValid = false;
+			showAlert("Confirm Password is required", "error");
+		}
+		if(ConfirmPasswordInput.text &&  ConfirmPasswordInput.text !== Input5.text){
+			isValid = false;
+			showAlert("Password and Confirm Password do not match", "error");
+		}
 		return isValid;
 	},
 	generateUUID: function() {
