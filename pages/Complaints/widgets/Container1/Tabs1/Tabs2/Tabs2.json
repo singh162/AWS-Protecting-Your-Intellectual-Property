@@ -165,7 +165,7 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onTabSelected": "{{getTitlesServerFilters.run();\ncountTitles.run();\nviewTitlesObject.viewTitle();}}",
-  "originalBottomRow": 53,
+  "originalBottomRow": 67,
   "originalTopRow": 4,
   "parentColumnSpace": 19.12603759765625,
   "parentId": "w5rt4mulg3",
@@ -180,7 +180,7 @@
       "id": "tab1",
       "index": 0,
       "isVisible": true,
-      "label": "Add Titles",
+      "label": "Add Content Titles",
       "positioning": "vertical",
       "widgetId": "wo6lkezu2i"
     },
@@ -188,7 +188,7 @@
       "id": "tab2",
       "index": 1,
       "isVisible": true,
-      "label": "Edit / Delete Titles",
+      "label": "Edit / Delete Add Content Titles",
       "positioning": "vertical",
       "widgetId": "dbwdh2qc56"
     }

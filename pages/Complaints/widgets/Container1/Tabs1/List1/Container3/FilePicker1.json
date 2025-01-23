@@ -5,7 +5,7 @@
   ],
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 19,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "displayName": "FilePicker",
@@ -77,7 +77,7 @@
     "Inputs"
   ],
   "thumbnailSVG": "/static/media/thumbnail.164363adea04c44e54b1fd47657a579e.svg",
-  "topRow": 8,
+  "topRow": 15,
   "type": "FILE_PICKER_WIDGET_V2",
   "version": 1,
   "widgetId": "jwa2amr5if",

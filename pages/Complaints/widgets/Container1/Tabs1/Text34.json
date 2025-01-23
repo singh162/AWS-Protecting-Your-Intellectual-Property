@@ -49,7 +49,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 10,
+  "rightColumn": 11,
   "searchTags": [
     "typography",
     "paragraph",
@@ -60,7 +60,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "Title   <span style=\"color: red;\">*</span>",
+  "text": "Content Title   <span style=\"color: red;\">*</span>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",

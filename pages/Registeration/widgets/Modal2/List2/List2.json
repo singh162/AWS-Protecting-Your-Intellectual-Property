@@ -134,8 +134,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onItemClick": "{{}}",
-  "originalBottomRow": 65,
-  "originalTopRow": 9,
+  "originalBottomRow": 49,
+  "originalTopRow": 11,
   "pageSize": 1,
   "parentColumnSpace": 5.631649971008301,
   "parentId": "wlrwpuemx9",

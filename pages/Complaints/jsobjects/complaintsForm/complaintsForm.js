@@ -7,7 +7,26 @@ export default {
 			return v.toString(16);
 		});
 	},
+	async changeFileName(){
+		try{
+			AddListInput.listArray.forEach((complaints) => {
 
+				// Check if FilePicker2Copy exists and contains a file
+				if (complaints.FilePicker1 && complaints.FilePicker1[0]) {
+					complaints.FilePicker1[0].name= complaints.input1 + `.${complaints.FilePicker1[0].type.split("/")[1]}`;
+					complaints.FilePicker1[0].meta.name = complaints.input1+ `.${complaints.FilePicker1[0].type.split("/")[1]}`;
+				} else {
+					// Log if there is no file in FilePicker2Copy
+					console.log("No file found in FilePicker2Copy.");
+				}
+			});
+			return;
+		}
+		catch(ex)
+		{
+			throw ex;
+		}
+	},
 	async checkExpireUser() {
 		// Fetch the expire_at value from the database
 		let expireDate = await checkExpire.run({id:appsmith.store.rightHolderUserId});
@@ -65,6 +84,7 @@ export default {
 							original_work: originalWork.text,
 							rightHolderUserId: appsmith.store.rightHolderUserId,
 							infringing_url: AddListInput.listArray[i].input1,
+							infringing_sub_url : AddListInput.listArray[i].input13Copy,
 							description: AddListInput.listArray[i].Description,
 							inserted_at: moment().format('YYYY-MM-DD HH:mm:ss'),
 							updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
@@ -95,12 +115,14 @@ export default {
 							inserted_at: moment().format('YYYY-MM-DD HH:mm:ss'),
 							updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
 						});
+						await this.changeFileName();
 
 						await UpdateComplaintTitle.run({
 							complaint_form_id: complaint_form_id,
 							updated_at: moment().format('YYYY-MM-DD HH:mm:ss'),
 							id: Select3.selectedOptionValue
 						})
+
 
 					} catch (ex) {
 						console.error(`Error while inserting forms for item ${i}:`, ex);
@@ -129,6 +151,8 @@ export default {
 				showAlert("Some errors occurred:\n" + errors.join("\n"), "error");
 				this.resetWidgets();
 			} else {
+				await sendComplaintsEmail.run();
+				showAlert("Complaint Email is successfully submitted", "info");
 				this.resetForm();
 				showAlert("All forms successfully submitted", "info");
 				resetWidget("Select3",true);

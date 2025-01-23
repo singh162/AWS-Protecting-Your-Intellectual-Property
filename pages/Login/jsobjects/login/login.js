@@ -78,7 +78,21 @@ Would you like to view your profile?
 								setTimeout(function() {
 									closeModal(Modal2.name);
 								}, 30000);
-							} else {
+							}
+							else if (checkData[0].Status === "Return For Additional Information") {
+								this.modalText = `Dear ${checkData[0].rightHolderName},
+Your profile requires additional information before it can be approved by SAIP.
+To proceed, please provide the following details: ${checkData[0].reasonStatus}.
+We appreciate your prompt attention to this matter and look forward to completing your verification.
+
+Would you like to view your profile?`;
+								await showModal(Modal2.name);
+								setTimeout(function () {
+									closeModal(Modal2.name);
+								}, 30000);
+
+							} 
+							else {
 								navigateTo('Complaints', {}, 'SAME_WINDOW');
 								showAlert("login successfully","info");
 							}

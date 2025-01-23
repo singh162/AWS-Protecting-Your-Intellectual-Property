@@ -52,8 +52,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onClick": "{{validateTitles.validateTitles();}}",
-  "originalBottomRow": 65,
-  "originalTopRow": 61,
+  "originalBottomRow": 63,
+  "originalTopRow": 59,
   "parentId": "wlrwpuemx9",
   "placement": "CENTER",
   "recaptchaType": "V3",

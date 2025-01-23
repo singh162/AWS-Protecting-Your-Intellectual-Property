@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 100,
+  "bottomRow": 13,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -14,7 +14,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
@@ -24,15 +24,15 @@
   "isDeprecated": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "k37beilc5c",
-  "leftColumn": 10,
+  "key": "54bzx7vrq8",
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 116,
-  "mobileLeftColumn": 10,
-  "mobileRightColumn": 26,
-  "mobileTopRow": 112,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 9,
+  "mobileTopRow": 5,
   "needsErrorInfo": false,
   "onCanvasUI": {
     "disableParentSelection": false,
@@ -41,15 +41,13 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 97,
-  "originalTopRow": 90,
   "overflow": "NONE",
-  "parentColumnSpace": 10.40625,
-  "parentId": "1oct9vwn1y",
+  "parentColumnSpace": 16.272790908813477,
+  "parentId": "ch1pyepglo",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 26,
+  "rightColumn": 12,
   "searchTags": [
     "typography",
     "paragraph",
@@ -60,14 +58,14 @@
     "Suggested",
     "Content"
   ],
-  "text": "Please Upload Copyright / Trademark / Ownership Document ",
+  "text": "Infringing Sub URL",
   "textAlign": "LEFT",
-  "textColor": "#a9a7a7",
+  "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
-  "topRow": 93,
+  "topRow": 8,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "sa74ssphe6",
-  "widgetName": "Text21Copy2Copy"
+  "widgetId": "2hedol4wie",
+  "widgetName": "Text23Copy1"
 }

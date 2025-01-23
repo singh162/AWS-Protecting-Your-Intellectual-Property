@@ -47,6 +47,11 @@ export default {
 					isValid = false;
 					errorMessage = `The Infringing URL in item ${i + 1} is invalid. Please provide a valid URL.\n`;
 				} 
+				else if(AddListInput.listArray[i].input13Copy && !urlPattern.test(AddListInput.listArray[i].input13Copy.trim())){
+					isValid = false;
+					errorMessage = `The Infringing Sub URL in item ${i + 1} is invalid. Please provide a valid URL.\n`;
+
+				}
 				// Validate proof file input
 				else if (!AddListInput.listArray[i].FilePicker1 || AddListInput.listArray[i].FilePicker1.length>0 === "") {
 					isValid = false;

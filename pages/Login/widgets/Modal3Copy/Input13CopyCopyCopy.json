@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 84,
+  "bottomRow": 91,
   "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
   "defaultText": "{{GetRightHolderInfo.data[0].reasonStatus ? GetRightHolderInfo.data[0].reasonStatus : \"\"}}",
   "displayName": "Input",
@@ -36,9 +36,9 @@
   "isDisabled": true,
   "isLoading": false,
   "isRequired": false,
-  "isVisible": "{{GetRightHolderInfo.data[0].reasonStatus && GetRightHolderInfo.data[0].Status === \"Rejected\" ? true: false}}",
+  "isVisible": "{{GetRightHolderInfo.data[0].reasonStatus && GetRightHolderInfo.data[0].Status === \"Return For Additional Information\" ? true: false}}",
   "key": "z2lfiw8wqa",
-  "label": "Reason Of Rejection By SAIP",
+  "label": "Addtional Information",
   "labelAlignment": "left",
   "labelPosition": "Left",
   "labelStyle": "",
@@ -79,9 +79,9 @@
     "Inputs"
   ],
   "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
-  "topRow": 77,
+  "topRow": 84,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "ktud1zal8q",
-  "widgetName": "Input13CopyCopy"
+  "widgetId": "lxxs4qp3nc",
+  "widgetName": "Input13CopyCopyCopy"
 }

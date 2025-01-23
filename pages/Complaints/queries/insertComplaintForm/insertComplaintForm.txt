@@ -7,6 +7,7 @@ INSERT INTO test_taoq_reach.complaints_form (
 	acknowledgment, 
 	original_work, 
 	infringing_url, 
+	infringing_sub_url,
 	rightHolderUserId, 
 	inserted_at, 
 	updated_at
@@ -19,6 +20,7 @@ INSERT INTO test_taoq_reach.complaints_form (
 	{{this.params.acknowledgment ? 1 : 0}}, -- Acknowledgment flag (converted to tinyint)
 	'{{this.params.original_work}}',       -- Original work field
 	'{{this.params.infringing_url}}',      -- Infringing URL field
+	'{{this.params.infringing_sub_url}}',
 	'{{appsmith.store.rightHolderUserId}}', -- rightHolderUserId from Appsmith store
 	'{{this.params.inserted_at}}', -- Inserted timestamp
 	'{{this.params.updated_at}}'  -- Updated timestamp

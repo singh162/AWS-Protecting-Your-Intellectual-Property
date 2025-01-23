@@ -2,7 +2,7 @@ export default {
 	index:1,
 
 	// Initial list array to hold dynamic fields, starting with one entry
-	listArray: [{ id: this.index, input1: '', Description: '', FilePicker1: [] }],
+	listArray: [{ id: this.index, input1: '',input13Copy: '', Description: '', FilePicker1: [] }],
 	lsitPageNo:1,
 
 
@@ -13,7 +13,7 @@ export default {
 		const newId = this.index;
 
 		// Add a new input field object to the array
-		this.listArray.push({ id: newId, input1: '', Description: '',FilePicker1: []});
+		this.listArray.push({ id: newId, input1: '',input13Copy: '', Description: '',FilePicker1: []});
 
 		// Log the updated list data to the console
 
@@ -52,7 +52,7 @@ export default {
 	},
 	// Function to handle input changes
 	handleInputChange(id, field, value) {
-
+		console.log("handleValue",id,field,value);
 		if (field === "FilePicker1") {
 			const index = this.listArray.findIndex(item => item.id === id);
 			if (index !== -1) {

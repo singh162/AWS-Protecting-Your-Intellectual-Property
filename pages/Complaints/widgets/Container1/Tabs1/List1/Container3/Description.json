@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 35,
+  "bottomRow": 42,
   "boxShadow": "none",
   "defaultText": "",
   "displayName": "Input",
@@ -69,7 +69,7 @@
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 57,
+  "rightColumn": 61,
   "searchTags": [
     "form",
     "text input",
@@ -83,7 +83,7 @@
     "Inputs"
   ],
   "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
-  "topRow": 19,
+  "topRow": 22,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "n6j2o5vpeh",

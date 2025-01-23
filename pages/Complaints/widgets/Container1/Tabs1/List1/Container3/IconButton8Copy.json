@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 19,
   "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "TERTIARY",
@@ -24,7 +24,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "h6pv488zuf",
-  "leftColumn": 33,
+  "leftColumn": 34,
   "minWidth": 50,
   "mobileBottomRow": 29,
   "mobileLeftColumn": 54,
@@ -43,7 +43,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 36,
+  "rightColumn": 37,
   "searchTags": [
     "click",
     "submit"
@@ -53,7 +53,7 @@
   ],
   "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
   "tooltip": "Please upload up to 5 files in JPG or PNG format. Each file must be 5MB or smaller. Files that exceed the limit or are in unsupported formats cannot be uploaded.",
-  "topRow": 8,
+  "topRow": 15,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
   "widgetId": "8qzhqmfl8m",
