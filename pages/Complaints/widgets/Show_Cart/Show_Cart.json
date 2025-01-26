@@ -1,18 +1,17 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 600,
+  "bottomRow": 730,
   "boxShadow": "none",
   "canEscapeKeyClose": true,
   "canOutsideClickClose": true,
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 600,
+      "bottomRow": 730,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
-      "displayName": "Canvas",
       "dynamicBindingPathList": [
         {
           "key": "borderRadius"
@@ -23,31 +22,22 @@
       ],
       "dynamicHeight": "AUTO_HEIGHT",
       "flexLayers": [],
-      "hideCard": true,
-      "isDeprecated": false,
       "isDisabled": false,
       "isLoading": false,
       "isVisible": true,
-      "key": "h8yw2ya2h5",
+      "key": "wbnxxj9gpn",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
-      "minHeight": 960,
+      "minHeight": 250,
       "minWidth": 450,
       "mobileBottomRow": 0,
       "mobileLeftColumn": 0,
       "mobileRightColumn": 0,
       "mobileTopRow": 0,
       "needsErrorInfo": false,
-      "onCanvasUI": {
-        "disableParentSelection": true,
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
-      },
       "parentColumnSpace": 1,
-      "parentId": "3wlh8frrvz",
+      "parentId": "y58e6ua5j0",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -56,60 +46,39 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "sllordh503",
-      "widgetName": "Canvas112"
+      "widgetId": "ffgz2epszy",
+      "widgetName": "Canvas129"
     }
   ],
   "detachFromLayout": true,
-  "displayName": "Modal",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "height": 600,
-  "hideCard": false,
-  "iconSVG": "/static/media/icon.47fe8500526372db96cb58a82187ffeb.svg",
+  "height": 730,
   "isCanvas": true,
-  "isDeprecated": false,
   "isLoading": false,
-  "key": "jpu08dfszo",
+  "key": "5xsii4bv5p",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 24,
-  "minHeight": 600,
   "mobileBottomRow": 0,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 0,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onCanvasUI": {
-    "disableParentSelection": true,
-    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
-  },
   "parentColumnSpace": 1,
   "parentId": "0",
   "parentRowSpace": 1,
   "renderMode": "CANVAS",
   "rightColumn": 0,
-  "searchTags": [
-    "dialog",
-    "popup",
-    "notification"
-  ],
   "shouldScrollContents": true,
-  "tags": [
-    "Layout"
-  ],
-  "thumbnailSVG": "/static/media/thumbnail.c20e144182d9af35cde59e39d9afe632.svg",
   "topRow": 0,
   "type": "MODAL_WIDGET",
   "version": 2,
-  "widgetId": "3wlh8frrvz",
-  "widgetName": "Modal6",
-  "width": 1036
+  "widgetId": "y58e6ua5j0",
+  "widgetName": "Show_Cart",
+  "width": 960
 }

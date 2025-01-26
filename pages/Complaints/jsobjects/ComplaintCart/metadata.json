@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6773c710c83f61054013bc2b_bb36d1d8-7f05-456e-8912-6ab8cf3efd68",
+  "id": "Complaints_ComplaintCart",
+  "unpublishedCollection": {
+    "name": "ComplaintCart",
+    "pageId": "Complaints",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
