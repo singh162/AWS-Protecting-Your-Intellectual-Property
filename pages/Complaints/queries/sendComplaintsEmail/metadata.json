@@ -10,7 +10,7 @@
       "formData": {
         "command": "SEND",
         "send": {
-          "attachments": "{{AddListInput.listArray.map(item=>item.FilePicker1[0])}}",
+          "attachments": "{{ \nAddListInput.listArray\n.map(item => item.FilePicker1)\n.flat() \n.filter(file => file) // Remove any undefined/null values\n}}",
           "bodyType": "text/html",
           "from": "saip@naxap.com",
           "subject": "Compaints for infringment by {{appsmith.store.signUpRightHolderName}} on {{moment.utc().format(\"YYYY-MM-DD hh:mm:ss\")}}",

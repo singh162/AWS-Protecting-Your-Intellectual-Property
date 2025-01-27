@@ -1,6 +1,7 @@
 export default {
-	async imageRendering(images) {
-		await storeValue("currentImages1", images); 
+	async imageRendering(index) {
+		// await storeValue("currentImages1", images); 
+		await storeValue("complaintCurrentIndex",index);
 		showModal(Modal6.name);
 	},
 

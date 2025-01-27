@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 58,
+  "bottomRow": 14,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -44,7 +44,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 130,
+  "originalBottomRow": 58,
   "originalTopRow": 9,
   "overflow": "NONE",
   "parentColumnSpace": 13.75,
@@ -63,7 +63,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "<div>\n  {{ \n(appsmith.store.currentImages1 || []).map(image => \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t`<img src=\"${image.data}\" style=\"width: 500px; height: 300px; margin: 60px;\" />`\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t ).join('') \n}}\n</div>",
+  "text": "<div>\n  {{ \n(AddListInput.listArray[appsmith.store.complaintCurrentIndex].FilePicker1 || []).map(image => \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t `<img src=\"${image.data}\" style=\"width: 500px; height: 300px; margin: 60px;\" />`\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t).join('') \n}}\n</div>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",

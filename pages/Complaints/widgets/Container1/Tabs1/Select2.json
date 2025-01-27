@@ -73,7 +73,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "[ { \"name\": \"Copyright Infringement & DMCA Violations\", \"code\": \"dmca\" }, { \"name\": \"Trademark Infringement\", \"code\": \"trademark\" } ]",
+  "sourceData": "[ { \"name\": \"Copyright Infringement\", \"code\": \"dmca\" }, { \"name\": \"Trademark Infringement\", \"code\": \"trademark\" } ]",
   "tags": [
     "Suggested",
     "Select"
