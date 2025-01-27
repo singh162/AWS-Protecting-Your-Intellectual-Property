@@ -126,10 +126,10 @@ export default {
 				const combinedFiles = [...updatedFiles, ...newFiles];
 
 				// Check the file count limit
-				if (combinedFiles.length <= 3) {
+				if (combinedFiles.length <= 5) {
 					this.listArray[index].FilePicker1 = combinedFiles;
 				} else {
-					console.warn("Cannot add more than 3 files.");
+					console.warn("Cannot add more than 5 files.");
 				}
 			}
 		} else {
