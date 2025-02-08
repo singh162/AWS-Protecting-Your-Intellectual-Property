@@ -32,7 +32,7 @@
   "mobileRightColumn": 47,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(AutorizedDocumentView.name).then(() => {\n  showModal(Modal3.name);\n});}}",
+  "onClick": "{{closeModal(AutorizedDocumentView.name).then(() => {\n  showModal(Modal3Copy.name);\n});}}",
   "parentId": "pvj7zib1ei",
   "placement": "CENTER",
   "recaptchaType": "V3",

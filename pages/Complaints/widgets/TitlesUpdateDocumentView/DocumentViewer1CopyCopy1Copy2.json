@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "bottomRow": 57,
-  "docUrl": "{{FilePicker2Copy.files.length> 0 ?FilePicker2Copy.files[0].data:getTitleImageQuery.data[0].ownershipImage}}",
+  "docUrl": "{{FilePicker2Copy.files.length> 0 ?FilePicker2Copy.files[0].data:\"data:application/pdf;base64,\"+getTitleImageQuery.data[0].ownershipImage}}",
   "dynamicBindingPathList": [
     {
       "key": "docUrl"

@@ -3,7 +3,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 47,
   "boxShadow": "none",
-  "defaultImage": "data:image/;base64,{{getTitleImageQuery.data[0].ownershipImage}}",
+  "defaultImage": "{{FilePicker2Copy.files.length> 0 ?FilePicker2Copy.files[0].data:\"data:image/;base64,\"+getTitleImageQuery.data[0].ownershipImage}}",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"

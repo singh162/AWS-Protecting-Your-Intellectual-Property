@@ -32,7 +32,7 @@
   "mobileRightColumn": 47,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(IdentificationProofImageView.name).then(() => {\n  showModal(Modal3.name);\n});}}",
+  "onClick": "{{closeModal(IdentificationProofImageView.name).then(() => {\n  showModal(Modal3Copy.name);\n});}}",
   "parentId": "3r6pmnto9r",
   "placement": "CENTER",
   "recaptchaType": "V3",
