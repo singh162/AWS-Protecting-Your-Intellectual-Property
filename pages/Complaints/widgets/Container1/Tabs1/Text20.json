@@ -25,7 +25,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "c27awnnpoy",
-  "leftColumn": 21,
+  "leftColumn": 19,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -41,7 +41,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 42,
+  "originalBottomRow": 44,
   "originalTopRow": 38,
   "overflow": "NONE",
   "parentColumnSpace": 16.116043090820312,
@@ -60,7 +60,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "Infringing Details",
+  "text": "Infringement Details",
   "textAlign": "CENTER",
   "textColor": "#034059",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",

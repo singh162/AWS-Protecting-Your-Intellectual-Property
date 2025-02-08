@@ -150,14 +150,14 @@ export default {
 				// Extract and decode the Base64 data portion from ownershipImage.data
 				const base64Data = titleItem.FilePicker2Copy[0].data.split(',')[1];
 				if (!base64Data) {
-					showAlert("Invalid image data format for title: " + titleItem.titleName, "error");
+					showAlert("Invalid Document data format for title: " + titleItem.titleName, "error");
 					continue; // Skip to the next title
 				}
 				// Insert the record into the database
 				await insertComplaintTiles.run({
 					id: id,
 					name: titleItem.titleName,
-					ownershipImage: base64Data, // Keep it as is
+					ownershipImage: base64Data,
 					rightHolderUserId: rightHolderUserId,
 					inserted_at: moment().format('YYYY-MM-DD HH:mm:ss'),
 					updated_at: moment().format('YYYY-MM-DD HH:mm:ss')

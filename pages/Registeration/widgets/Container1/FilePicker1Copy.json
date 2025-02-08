@@ -1,8 +1,5 @@
 {
-  "allowedFileTypes": [
-    "image/jpeg",
-    ".png"
-  ],
+  "allowedFileTypes": "[\n  \"image/jpeg\",\n  \".png\",\n\t\".pdf\"\n]",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 83,
@@ -14,7 +11,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "allowedFileTypes"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onFilesSelected"

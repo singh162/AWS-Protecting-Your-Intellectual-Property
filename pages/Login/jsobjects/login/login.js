@@ -23,7 +23,7 @@ export default {
 	},
 	async signInRightHolder() {
 		if(!Input1.text){
-			showAlert("Email Address  or User Name is required", "error");
+			showAlert("Email Address is required", "error");
 		}
 		else if(!Input2.text){
 			showAlert("Password is required", "error");
@@ -55,8 +55,11 @@ export default {
 						}
 						if (checkData && checkData.length > 0) {
 							if (checkData[0].Status === "Under Review") {
-								this.modalText = `Dear ${checkData[0].rightHolderName},
-Thank you for your submission. Your application is currently being reviewed by SAIP.
+								let rightHolderName = checkData[0].rightHolderName;
+								let capitalizedName = rightHolderName.charAt(0).toUpperCase() + rightHolderName.slice(1);
+								this.modalText = `Dear ${capitalizedName},
+Thank you for your submission. 
+Your application is currently being reviewed by SAIP.
 We appreciate your patience as we work through this process.
 You will receive an email as soon as your verification is complete.
 
@@ -68,7 +71,9 @@ Would you like to view your profile?
 								}, 30000);
 
 							} else if (checkData[0].Status === "Rejected") {
-								this.modalText = `Dear ${checkData[0].rightHolderName},
+								let rightHolderName = checkData[0].rightHolderName;
+								let capitalizedName = rightHolderName.charAt(0).toUpperCase() + rightHolderName.slice(1);
+								this.modalText = `Dear ${capitalizedName},
 We regret to inform you that your profile has not been approved by the SAIP due to insufficient information or documentation.
 For further assistance and clarification, we kindly encourage you to reach out to the team directly. 
 
@@ -80,7 +85,9 @@ Would you like to view your profile?
 								}, 30000);
 							}
 							else if (checkData[0].Status === "Return For Additional Information") {
-								this.modalText = `Dear ${checkData[0].rightHolderName},
+								let rightHolderName = checkData[0].rightHolderName;
+								let capitalizedName = rightHolderName.charAt(0).toUpperCase() + rightHolderName.slice(1);
+								this.modalText = `Dear ${capitalizedName},
 Your profile requires additional information before it can be approved by SAIP.
 To proceed, please provide the following details: ${checkData[0].reasonStatus}.
 We appreciate your prompt attention to this matter and look forward to completing your verification.
@@ -94,12 +101,12 @@ Would you like to view your profile?`;
 							} 
 							else {
 								navigateTo('Complaints', {}, 'SAME_WINDOW');
-								showAlert("login successfully","info");
+								showAlert("Successfully Logged In","info");
 							}
 						}
 						else{
 							navigateTo('Registeration', {}, 'SAME_WINDOW');
-							showAlert("login successfully","info");
+							showAlert("Successfully Logged In","info");
 						}
 					}
 					else
@@ -109,14 +116,12 @@ Would you like to view your profile?`;
 				}
 				else
 				{
-					showAlert("invalid username or email Address and password","error");
+					showAlert("Invalid Email Address or Password","error");
 				}
 			}
 			else{
-				showAlert("Email Address not found, please create the account","warning");
+				showAlert("Email Address not found, Please create the account","warning");
 			}
 		}
-
-
 	}
 }

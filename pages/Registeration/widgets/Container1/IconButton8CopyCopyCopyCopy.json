@@ -54,7 +54,7 @@
     "Buttons"
   ],
   "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
-  "tooltip": "Please upload a file with one of the following formats:  JPG, or PNG. The maximum file size allowed is 5MB. Files exceeding this limit cannot be uploaded.",
+  "tooltip": "Please upload a file with one of the following formats:  JPG, or PNG or PDF. The maximum file size allowed is 5MB. Files exceeding this limit cannot be uploaded.",
   "topRow": 106,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,

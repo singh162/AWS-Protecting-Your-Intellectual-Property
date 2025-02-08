@@ -57,23 +57,23 @@ export default {
 				);
 				await UpdateContentOwerShip.run({
 					id: rightHolderInfoId,
-					contentOwnerShip:FilePicker1Copy.files.length > 0 ?FilePicker1Copy.files[0].data.replace(/^data:image\/\w+;base64,/, '') : null
+					contentOwnerShip:FilePicker1Copy.files.length > 0 ?FilePicker1Copy.files[0].data.split(",")[1] : null
 
 				})
 				await UpdateIndentificationProff.run({
 					id: rightHolderInfoId,
-					indentificationProff: FilePicker1.files.length > 0 ?FilePicker1.files[0].data.replace(/^data:image\/\w+;base64,/, '')
+					indentificationProff: FilePicker1.files.length > 0 ?FilePicker1.files[0].data.split(",")[1]
 					: null
 				})
 				await UpdateCopyRigthLetter.run({
 					id: rightHolderInfoId,
-					copyRightLetter: FilePicker2.files.length>0 ? FilePicker2.files[0].data.replace(/^data:image\/\w+;base64,/, '') : null
+					copyRightLetter: FilePicker2.files.length>0 ? FilePicker2.files[0].data.split(",")[1] : null
 				})
 				// await removeValue("indentificationProff");
 				// await removeValue("copyRightLetter");
 				// await removeValue("contentOwnerShip");
 
-				showAlert("form sucessfully submitted","info");
+				showAlert("Form sucessfully submitted","info");
 				resetWidget(Modal1.name);
 				storeValue("rightHolderInfoId",rightHolderInfoId);
 				setTimeout(function() {
@@ -84,7 +84,7 @@ export default {
 
 			}
 			else{
-				showAlert("Session is expire , please login again","warning");
+				showAlert("Session is expired. Please login again","warning");
 				navigateTo('Login', {}, 'SAME_WINDOW');
 			}
 		}

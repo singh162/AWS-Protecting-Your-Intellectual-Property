@@ -42,8 +42,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 104,
-  "originalTopRow": 99,
+  "originalBottomRow": 105,
+  "originalTopRow": 100,
   "overflow": "NONE",
   "parentColumnSpace": 10.40625,
   "parentId": "1oct9vwn1y",
@@ -61,7 +61,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "Please upload your Valid Authorised Representative Letter",
+  "text": "Please upload your valid Authorised Representative Letter",
   "textAlign": "LEFT",
   "textColor": "#a9a7a7",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",

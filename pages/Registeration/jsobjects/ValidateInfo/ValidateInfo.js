@@ -106,6 +106,4 @@ export default {
 			showModal(Modal1.name)
 		}
 	},
-
-
 }

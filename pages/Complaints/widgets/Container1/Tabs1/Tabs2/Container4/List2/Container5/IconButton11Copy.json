@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 11,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "TERTIARY",
@@ -36,7 +36,7 @@
   "isLoading": false,
   "isVisible": "{{ListTitles.titleList[currentIndex].FilePicker2.length>0}}",
   "key": "rqkapcoiju",
-  "leftColumn": 62,
+  "leftColumn": 58,
   "minWidth": 50,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 60,
@@ -56,7 +56,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 64,
+  "rightColumn": 60,
   "searchTags": [
     "click",
     "submit"
@@ -65,7 +65,7 @@
     "Buttons"
   ],
   "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
-  "topRow": 8,
+  "topRow": 7,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
   "widgetId": "33leljj4ap",

@@ -2,9 +2,8 @@ export default {
 	async updateTitle() {
 		try {
 			// Extract and decode the Base64 data portion from ownershipImage.data
-			const base64Data = FilePicker2Copy.files.length > 0 
-			? FilePicker2Copy.files[0].data.split(',')[1] 
-			: Table1Copy.triggeredRow.ownershipImage.split(',')[1];
+			const base64Data = FilePicker2Copy.files.length > 0 ? FilePicker2Copy.files[0].data.split(',')[1] 
+			: Table1Copy.triggeredRow.ownershipImage;
 
 			if (!base64Data) {
 				showAlert("Invalid image data format for title: " + Input15.text, "error");

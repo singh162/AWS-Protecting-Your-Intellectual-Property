@@ -38,7 +38,7 @@
     "id",
     "Status"
   ],
-  "columnUpdatedAt": 1736940852281,
+  "columnUpdatedAt": 1738477260705,
   "columnWidthMap": {
     "InsertedDate": 189
   },
@@ -227,7 +227,7 @@
       "width": 150
     },
     "customColumn1": {
-      "alias": "Owership Image",
+      "alias": "Owership",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
@@ -254,10 +254,10 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "Owership Image",
+      "label": "Owership",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{getTitleImageQuery.run().then(() => {\n\tshowModal(Modal9.name);\n});}}",
+      "onClick": "{{getTitleImageQuery.run().then(() => { viewFiles.titleViewDocument()\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t});}}",
       "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",

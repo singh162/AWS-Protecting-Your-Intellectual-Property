@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 161,
+  "bottomRow": 163,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -41,8 +41,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 161,
-  "originalTopRow": 137,
+  "originalBottomRow": 163,
+  "originalTopRow": 139,
   "overflow": "NONE",
   "parentColumnSpace": 12.15625,
   "parentId": "lre5o5g67c",
@@ -60,11 +60,11 @@
     "Suggested",
     "Content"
   ],
-  "text": "I understand and agree ,\nBy checking this box, you attest, under penalty of perjury, that you have a good faith belief that use of the material or violation of Intellectual Property in this report is not authorized by the copyright owner, its agent, or the law; AND you are authorized to act on behalf of the copyright owner; AND you understand, under SAIP Guidelines or Law, you may be liable for any damages, including costs and attorneys' fees, if you knowingly materially misrepresent reported material. Checking this box also confirms that you have a bona fide belief that the information and allegations contained in this report are accurate and complete, for purposes of the Digital Services Act",
+  "text": "I understand and agree ,\nBy checking this box, you attest, under penalty of perjury, that you have a good faith belief that use of the material or violation of Intellectual Property in this report is not authorized by the copyright owner, its agent, or the law; AND you are authorized to act on behalf of the copyright owner; AND you understand, under SAIP Guidelines or Law, you may be liable for any damages, including costs and attorneys' fees, if you knowingly materially misrepresent reported material. Checking this box also confirms that you have a bona fide belief that the information and allegations contained in this report are accurate and complete, for purposes of the Digital Services Act.",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
-  "topRow": 137,
+  "topRow": 139,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

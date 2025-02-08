@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 80,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "cross",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{FilePicker1Copy.files.length>0}}",
+  "key": "mbranm9qrd",
+  "leftColumn": 50,
+  "minWidth": 50,
+  "mobileBottomRow": 80,
+  "mobileLeftColumn": 49,
+  "mobileRightColumn": 53,
+  "mobileTopRow": 76,
+  "needsErrorInfo": false,
+  "onClick": "{{resetWidget(\"FilePicker1Copy\", true);}}",
+  "parentColumnSpace": 12.703125,
+  "parentId": "lre5o5g67c",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 53,
+  "topRow": 76,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "myjykrmmdb",
+  "widgetName": "IconButton21"
+}

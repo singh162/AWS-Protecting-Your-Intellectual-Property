@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 19,
+  "bottomRow": 21,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -58,7 +58,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "Screenshot Of Proof's   <span style=\"color: red;\">*</span>",
+  "text": "Screenshot of Infringing Content  <span style=\"color: red;\">*</span>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",

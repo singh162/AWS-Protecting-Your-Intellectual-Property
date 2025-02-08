@@ -57,7 +57,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "Email Address is not Verified. Please check your inbox for the verification link and complete the verification process",
+  "text": "Email Address is not verified. Please check your inbox for the verification link and complete the verification process.",
   "textAlign": "CENTER",
   "textColor": "#3f3f46",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",

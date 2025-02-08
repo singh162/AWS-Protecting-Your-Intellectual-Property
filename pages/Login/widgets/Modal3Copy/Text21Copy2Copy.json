@@ -41,8 +41,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 97,
-  "originalTopRow": 90,
+  "originalBottomRow": 100,
+  "originalTopRow": 93,
   "overflow": "NONE",
   "parentColumnSpace": 10.40625,
   "parentId": "1oct9vwn1y",
@@ -60,7 +60,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "Please Upload Copyright / Trademark / Ownership Document ",
+  "text": "Please upload Copyright / Trademark / Ownership Document ",
   "textAlign": "LEFT",
   "textColor": "#a9a7a7",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",

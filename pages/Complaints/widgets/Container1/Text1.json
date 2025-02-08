@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
+  "bottomRow": 9,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -41,7 +41,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 6,
+  "originalBottomRow": 9,
   "originalTopRow": 1,
   "overflow": "NONE",
   "parentColumnSpace": 12.222900390625,
@@ -60,7 +60,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "Complaints Management & Customer Support Portal",
+  "text": "Complaints Management & Customer Support",
   "textAlign": "CENTER",
   "textColor": "#034059",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",

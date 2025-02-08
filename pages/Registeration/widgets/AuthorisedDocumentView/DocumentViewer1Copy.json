@@ -1,0 +1,33 @@
+{
+  "animateLoading": true,
+  "bottomRow": 57,
+  "docUrl": "{{FilePicker2.files.length >0 ? FilePicker2.files[0].data: ''}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "docUrl"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "glpea43doc",
+  "leftColumn": 5,
+  "mobileBottomRow": 42,
+  "mobileLeftColumn": 9,
+  "mobileRightColumn": 33,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 6.9375,
+  "parentId": "dtf8hwcqrt",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "topRow": 2,
+  "type": "DOCUMENT_VIEWER_WIDGET",
+  "version": 1,
+  "widgetId": "35qvyhikan",
+  "widgetName": "DocumentViewer1Copy"
+}

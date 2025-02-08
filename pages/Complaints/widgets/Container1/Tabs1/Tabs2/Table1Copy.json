@@ -40,7 +40,7 @@
     "customColumn1",
     "customColumn2"
   ],
-  "columnUpdatedAt": 1736929459830,
+  "columnUpdatedAt": 1738485701900,
   "columnWidthMap": {
     "customColumn1": 143,
     "name": 254,
@@ -124,6 +124,9 @@
     },
     {
       "key": "primaryColumns.customColumn2.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -282,7 +285,7 @@
       "label": "Update",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{showModal(Modal11.name);}}",
+      "onClick": "{{getTitleImageQuery.run().then(() => {\n\tshowModal(Modal11.name);\n});}}",
       "originalId": "customColumn1",
       "sticky": "right",
       "textSize": "0.875rem",
@@ -332,7 +335,7 @@
       "width": 150
     },
     "customColumn3": {
-      "alias": "Owership Image",
+      "alias": " Ownership Image",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "borderRadius": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
@@ -358,10 +361,10 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "Owership Image",
+      "label": " Ownership Image",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{getTitleImageQuery.run().then(() => {\n\tshowModal(Modal9.name);\n});}}",
+      "onClick": "{{getTitleImageQuery.run().then(() => {\nviewTitlePriiviewImage.priviewViewImage()\n});}}",
       "originalId": "customColumn3",
       "sticky": "",
       "textSize": "0.875rem",
