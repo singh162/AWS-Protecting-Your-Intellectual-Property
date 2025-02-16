@@ -13,8 +13,10 @@ export default {
 
 				// Check if FilePicker2Copy exists and contains a file
 				if (complaints.FilePicker1 && complaints.FilePicker1[0]) {
-					complaints.FilePicker1[0].name= complaints.input1 + `.${complaints.FilePicker1[0].type.split("/")[1]}`;
-					complaints.FilePicker1[0].meta.name = complaints.input1+ `.${complaints.FilePicker1[0].type.split("/")[1]}`;
+					for(let i=0;i<complaints.FilePicker1.length>0;i++){
+						complaints.FilePicker1[i].name= complaints.input1 + `.${complaints.FilePicker1[i].type.split("/")[1]}`;
+						complaints.FilePicker1[i].meta.name = complaints.input1+ `.${complaints.FilePicker1[i].type.split("/")[1]}`;
+					}
 				} else {
 					// Log if there is no file in FilePicker2Copy
 					console.log("No file found in FilePicker2Copy.");

@@ -7,7 +7,6 @@ export default {
 			FilePicker2Copy: []
 		}]
 		resetWidget("List2",true);
-		console.log("listti4EL",ListTitles.titleList)
 	},
 	async titleModal() {
 		showModal(Modal2.name); // Corrected: Use the modal's name as a string

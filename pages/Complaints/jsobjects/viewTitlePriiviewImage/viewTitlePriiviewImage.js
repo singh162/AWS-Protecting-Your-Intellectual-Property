@@ -14,8 +14,6 @@ export default {
 		}
 	},
 	async updatePreviewTitle(){
-		{{FilePicker2Copy.files.length> 0 ?FilePicker2Copy.files[0].data:Table1Copy.triggeredRow.ownershipImage}}
-
 		let mineType ;
 		if(FilePicker2Copy.files.length> 0){
 			mineType = FilePicker2Copy.files[0].type

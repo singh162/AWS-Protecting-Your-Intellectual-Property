@@ -52,7 +52,7 @@
     "Buttons"
   ],
   "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
-  "tooltip": "Please upload up to file in JPG or PNG format. Each file must be 5MB or smaller. Files that exceed the limit or are in unsupported formats cannot be uploaded.",
+  "tooltip": "Please upload up to file in JPG or PNG or PDF format. Each file must be 5MB or smaller. Files that exceed the limit or are in unsupported formats cannot be uploaded.",
   "topRow": 9,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
