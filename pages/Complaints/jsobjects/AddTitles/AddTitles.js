@@ -95,7 +95,7 @@ export default {
        <p>Please find the attachment corresponding to each title below. The name of the attachment matches the title name, so you can easily identify which attachment corresponds to each title:</p>
 
 			<p>For your convenience, please use the link below to access the Dashboard and provide the approval or rejection status for the submitted titles:</p>
-			<p><a href="https://saipdashboard.bytes.care/app/aws-saip-test/dashboard-6773db23d65d611d3e73c977?branch=master" target="_blank">Access the SAIP Dashboard</a></p>
+			<p><a href="https://saipdashboard.bytes.care/app/saip-test/rightsholder-approval-6773db23d65d611d3e73c972?branch=master" target="_blank">Access the SAIP Dashboard</a></p>
 				<p>We kindly request your prompt attention to this matter and an update on the status of the titles submitted by <strong>${appsmith.store.signUpRightHolderName}</strong>.</p>
 					</div>
 			<div class="footer">
