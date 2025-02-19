@@ -28,7 +28,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "pj9ak9hopa",
-  "leftColumn": 11,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -44,15 +44,15 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 11,
+  "originalBottomRow": 9,
   "originalTopRow": 5,
   "overflow": "NONE",
   "parentColumnSpace": 6.939453125,
-  "parentId": "n93n5wka23",
+  "parentId": "uats1qpodi",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 46,
+  "rightColumn": 63,
   "searchTags": [
     "typography",
     "paragraph",
@@ -71,6 +71,6 @@
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "vw6gmdgv51",
+  "widgetId": "2a1ip0turq",
   "widgetName": "Text24"
 }

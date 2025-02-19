@@ -29,7 +29,7 @@ export default {
 		// Validate if at least one Infringing URL and Description is added
 		else if (List1.listData.length === 0) {
 			isValid = false;
-			errorMessage = "Please add at least one Infringing URL and Description.\n";
+			errorMessage = "Please add atleast one Infringing URL and Description.\n";
 		} else {
 			// Loop through the dynamically added fields for validation
 			const item = AddListInput.listArray[AddListInput.listArray.length-1];
@@ -59,7 +59,7 @@ export default {
 				if (AddListInput.listArray.length>1  && AddListInput.urlSet.has(trimmedUrl)) {
 					isValid = false;
 					const firstPageNumber = AddListInput.urlPageMap[trimmedUrl]; // Get the page number where it was first found
-					errorMessage=(`Duplicate Infringing URL (${trimmedUrl}) found in the list at page ${i + 1}. It was first found at page ${firstPageNumber}. Please remove the duplicate.`);
+					errorMessage=(`A Duplicate Infringing URL (${trimmedUrl}) was found in the list on page ${i + 1}. It was first found on page ${firstPageNumber}. Please remove the Duplicate Infringing URL.`);
 				} else {
 					if(AddListInput.listArray.length>1){
 						AddListInput.urlSet.add(trimmedUrl);

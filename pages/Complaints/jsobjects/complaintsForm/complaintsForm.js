@@ -154,15 +154,15 @@ export default {
 				this.resetWidgets();
 			} else {
 				await sendComplaintsEmail.run();
-				showAlert("Complaint Email is successfully submitted", "info");
+				showAlert("Complaint Email has been Successfully Submitted", "success");
 				this.resetForm();
-				showAlert("All forms successfully submitted", "info");
+				showAlert("All forms have been Successfully Submitted", "success");
 				resetWidget("Select3",true);
 				closeModal(Modal2.name);
 			}
 		} else {
 			// Session expired message and redirection to login
-			showAlert("Session has expired, please login again", "warning");
+			showAlert("Session has been expired. Please login again.", "warning");
 			navigateTo('Login', {}, 'SAME_WINDOW');
 		}
 	},

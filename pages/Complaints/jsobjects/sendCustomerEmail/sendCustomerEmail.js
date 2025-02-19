@@ -14,7 +14,7 @@ export default {
 				await sendCustomerSupportEmail.run();
 
 				// Success message
-				showAlert("Email sent successfully!",'success');
+				showAlert("Email has been Sent Successfully",'success');
 				showModal(Modal7Copy.name)
 				resetWidget('RichTextEditor1');
 				resetWidget("FilePicker3");

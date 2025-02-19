@@ -22,7 +22,7 @@ export default {
 	async generateOtp() {
 		try {
 			if (!Input14.text) {
-				showAlert("Please Enter your email Address to send the Otp For Verification", "error");
+				showAlert("Please enter your Email Address to send the OTP For Verification", "error");
 				return; // Stop execution if email is not provided
 			}
 			let rightHolderExits =  await OtpExitsRightHolder.run({email:Input14.text});
@@ -56,13 +56,13 @@ export default {
 					// If OTP exists, update the OTP and expiration time
 					await updateResetOpt.run(updateObject);
 					await sendEmailForOtp.run(); // Implement this in Appsmith to send email
-					showAlert("OTP updated and email for OTP verification is sent successfully", "success");
+					showAlert("OTP has been updated, and an Email for OTP verification has been sent successfully", "success");
 				} else {
 					// Insert new OTP record
 					await InsertRestOtp.run(insertObject);
 					storeValue("otpEmail",Input14.text);
 					await sendEmailForOtp.run(); // Implement this in Appsmith to send email
-					showAlert("Email for OTP verification is sent successfully", "success");
+					showAlert("An Email for OTP verification has been sent successfully", "success");
 				}
 
 
@@ -72,7 +72,7 @@ export default {
 				this.resendOtp = false;
 			}
 			else{
-				showAlert("The email Address you have enter is not exits.", "error");
+				showAlert("The Email Address you have enter does not exist", "error");
 			}
 		} catch (error) {
 			console.error("Error in generating OTP:", error);
@@ -89,7 +89,7 @@ export default {
 				!Input15Copy1.text || !Input15Copy2.text || 
 				isNaN(enteredOtp) || enteredOtp.length !== 4 // Assuming OTP length is 4
 			) {
-				showAlert("Please enter a valid 4-digit OTP in all fields.", "error");
+				showAlert("Please enter a valid 4-digit OTP in all fields", "error");
 				return; // Stop further execution if inputs are invalid
 			}
 			// Get OTP data for the provided email address from the database
@@ -98,7 +98,7 @@ export default {
 			if (!otpData || (otpData && otpData.length === 0) ) {
 				this.resendOtp = true;
 				this.isSendOtp= false;
-				showAlert("OTP not found. Please request a new one.", "error");
+				showAlert("OTP not found. Please request a new one", "error");
 				return; // Stop further execution if no OTP data found
 			}
 			const expireAt = moment.utc(otpData[0].expiry_at).format('YYYY-MM-DD HH:mm:ss'); 
@@ -124,7 +124,7 @@ export default {
 
 			// Check if OTP matches
 			if (otpData[0].otp === parseInt(enteredOtp)) {
-				showAlert("OTP verified successfully!", "success");
+				showAlert("OTP Verified Successfully!", "success");
 				storeValue("otpEmail",Input14.text);
 				await deleteResetOtp.run({ email: Input14.text }); // Delete the OTP after successful verification
 				showModal(Modal9.name);

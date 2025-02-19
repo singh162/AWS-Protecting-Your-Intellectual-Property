@@ -140,7 +140,7 @@ export default {
 		try {
 			if (await this.checkExpireUser()) {
 				// Session expired message and redirection to login
-				showAlert("Session has expired, please login again", "warning");
+				showAlert("Session has been expired. please login again.", "warning");
 				navigateTo('Login', {}, 'SAME_WINDOW');
 				return; // Exit the function early
 			}
@@ -179,7 +179,7 @@ export default {
 			}
 			await sendTitleEmail.run();
 			showAlert("Title Addedd Successfully","success");
-			showAlert("Email is send to the SAIP Team","success");
+			showAlert("Email has been sent to the SAIP Team","success");
 			ListTitles.titleList= [
 				{ id: 1, titleName: "", FilePicker2: [] } // Start with one empty title entry
 			];
@@ -188,7 +188,7 @@ export default {
 			closeModal(Modal2Copy.name);
 		} catch (error) {
 			console.error("Error during addTitles:", error);
-			showAlert("Failed to add complaint title: " + error.message, "error");
+			showAlert("Failed to add Complaint Title: " + error.message, "error");
 		}
 	},
 	async changeFileName(){

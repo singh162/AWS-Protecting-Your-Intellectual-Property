@@ -25,7 +25,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "pj9ak9hopa",
-  "leftColumn": 16,
+  "leftColumn": 12,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -41,7 +41,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 29,
+  "originalBottomRow": 27,
   "originalTopRow": 22,
   "overflow": "NONE",
   "parentColumnSpace": 9.875,

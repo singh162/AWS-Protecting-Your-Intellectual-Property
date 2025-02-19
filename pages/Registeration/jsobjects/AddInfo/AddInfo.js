@@ -73,7 +73,7 @@ export default {
 				// await removeValue("copyRightLetter");
 				// await removeValue("contentOwnerShip");
 
-				showAlert("Form sucessfully submitted","info");
+				showAlert("Form Sucessfully Submitted","info");
 				resetWidget(Modal1.name);
 				storeValue("rightHolderInfoId",rightHolderInfoId);
 				setTimeout(function() {

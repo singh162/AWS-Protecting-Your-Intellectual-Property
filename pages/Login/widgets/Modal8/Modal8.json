@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 428,
+  "bottomRow": 39,
   "boxShadow": "none",
   "canEscapeKeyClose": true,
   "canOutsideClickClose": false,

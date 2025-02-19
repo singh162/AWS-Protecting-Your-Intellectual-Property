@@ -20,7 +20,7 @@ export default {
 			// Run the update query
 			await updateTiles.run(updateObject);
 			// Show success alert
-			showAlert("Title updated successfully!", "success");
+			showAlert("Title has been Updated Successfully!", "success");
 			await getAllTitlesByRightHolder.run();
 			await getTitlesServerFilters.run();
 			closeModal(Modal13.name);

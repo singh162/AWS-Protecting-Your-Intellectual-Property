@@ -50,7 +50,7 @@ export default {
 					let data = await GetExitsInfringingUrl.run({ infringing_url: trimmedUrl });
 					if (data && data.length > 0) {
 						isValid = false;
-						errorMessages.push(`This Infringing URL (${trimmedUrl}) has already been submitted. To proceed with the complaint, please remove the duplicate URL from the list or use a different Infringing URL. For assistance, contact SAIP.`);
+						errorMessages.push(`The Infringing URL (${trimmedUrl}) has already been submitted. To proceed with the complaint, please remove the duplicate URL from the list or use a different Infringing URL. For assistance, contact SAIP.`);
 					}
 				}
 			}

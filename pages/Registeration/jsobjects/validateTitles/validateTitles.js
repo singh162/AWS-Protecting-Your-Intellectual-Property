@@ -8,7 +8,7 @@ export default {
 		// Validate if at least one title entry exists
 		if (ListTitles.titleList.length === 0) {
 			isValid = false;
-			errorMessage = "Please add at least one title entry.\n";
+			errorMessage = "Please add atleast one title entry.\n";
 		} else {
 			const titleSet = new Set();
 

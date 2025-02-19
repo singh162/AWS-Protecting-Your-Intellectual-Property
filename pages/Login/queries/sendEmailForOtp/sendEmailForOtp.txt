@@ -35,7 +35,7 @@
 <table>
 <tr>
 <td><span>📞</span></td>
-<td><strong>Customer Service Number:</strong> 920021421</td>
+<td><strong>Customer Service Number:</strong> +966-920021421</td>
 </tr>
 <tr>
 <td><span>📍</span></td>

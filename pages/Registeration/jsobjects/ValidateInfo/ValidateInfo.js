@@ -5,12 +5,12 @@ export default {
 		let isValid = true;
 		if(!Name || !Name.text){
 			isValid = false;
-			showAlert("Name is required", "error");
+			showAlert("Full Name is required", "error");
 		}
 		if(!HolderName.text){
 			isValid = false;
 
-			showAlert("Holder Name is required", "error");
+			showAlert("First Name is required", "error");
 		}
 		if(!EmailAddress.text){
 			isValid = false;
@@ -18,14 +18,14 @@ export default {
 		}
 		if(!Select1.selectedOptionLabel){
 			isValid = false;
-			showAlert("Please Select the phone number code","error");
+			showAlert("Please select the phone number code","error");
 		}
 		else if(Select1.selectedOptionLabel){
 			lengthCheck = phoneLength.phoneLength.find(i => i.phone_code === Select1.selectedOptionLabel).phone_length;
 		}
 		if(!Select1Copy.selectedOptionLabel){
 			isValid = false;
-			showAlert("Please Select the confirm phone  number code","error");
+			showAlert("Please select the confirm phone number code","error");
 		}
 		else if(Select1Copy.selectedOptionLabel){
 			lengthCheck1 = phoneLength.phoneLength.find(i => i.phone_code === Select1.selectedOptionLabel).phone_length;
@@ -87,20 +87,20 @@ export default {
 		}
 		if(!FilePicker1 || !FilePicker1.files || FilePicker1.files.length === 0){
 			isValid = false;
-			showAlert("At least one file needs to be uploaded", "error");
+			showAlert("Atleast one file needs to be uploaded", "error");
 		}
 		if(!FilePicker2 || !FilePicker2.files || FilePicker2.files.length === 0){
 			isValid = false;
-			showAlert("At least one copy rigth letter file needs to be uploaded", "error");
+			showAlert("Atleast one Copyright Letter file needs to be uploaded", "error");
 		}
 		if(!FilePicker1Copy || !FilePicker1Copy.files || FilePicker1Copy.files.length === 0){
 			isValid = false;
-			showAlert("At least one content Content Ownership Certificate needs to be uploaded", "error");
+			showAlert("Atleast one Content Ownership Certificate needs to be uploaded", "error");
 		}  
 		let data = await getAllTitlesByRightHolder.run();
 		if(data && data.length === 0){
 			isValid = false;
-			showAlert("Please Add Atleast one title, By clicking on the Add Title Button", "warning");
+			showAlert("Please add at least one content title by clicking on the 'Add Title' button", "warning");
 		}  
 		if(isValid){
 			showModal(Modal1.name)

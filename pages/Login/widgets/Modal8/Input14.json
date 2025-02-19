@@ -63,7 +63,7 @@
   "parentColumnSpace": 6.9375,
   "parentId": "tu12j55v4z",
   "parentRowSpace": 10,
-  "placeholderText": "Please enter your email address to receive the One-Time Password (OTP) for verification",
+  "placeholderText": "Please enter your Email Address to receive the One-Time Password (OTP) for verification",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",

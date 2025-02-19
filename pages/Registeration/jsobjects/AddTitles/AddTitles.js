@@ -103,7 +103,6 @@ export default {
 				<p>Thank you for your cooperation and support.</p>
 			<p>Best regards,</p>
 			<p><strong>${Name.text}</strong><br>
-			${CompanyName.text}</p>
 			</div>
 			</div>
 			</body>
@@ -163,13 +162,13 @@ export default {
 					updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
 				});
 			}
-			showAlert("Complaint title(s) added successfully!", "success");
+			showAlert("Complaint Title(s) Added Successfully", "success");
 			resetWidget("List2",true);
 			resetWidget("Checkbox1",true);
 			closeModal(Modal2.name);
 			await this.changeFileName();
 			await sendTitleEmail.run();
-			showAlert("Email is send to the SAIP Team","success");
+			showAlert("Email is sent to the SAIP Team","success");
 			// closeModal(Modal2Copy.name);
 
 		} catch (error) {

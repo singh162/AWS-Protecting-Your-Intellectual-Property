@@ -64,7 +64,7 @@
   "tags": [
     "Buttons"
   ],
-  "text": "Download Xlsx",
+  "text": "Download Excel",
   "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
   "topRow": 7,
   "type": "BUTTON_WIDGET",

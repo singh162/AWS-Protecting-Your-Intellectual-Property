@@ -120,7 +120,7 @@ Would you like to view your profile?`;
 				}
 			}
 			else{
-				showAlert("Email Address not found, Please create the account","warning");
+				showAlert("Email Address not found, Please create a new account.","warning");
 			}
 		}
 	}

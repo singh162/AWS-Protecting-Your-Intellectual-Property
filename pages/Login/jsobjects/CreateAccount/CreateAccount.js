@@ -99,7 +99,7 @@ export default {
 
 
 						await Insert_Verification_Token.run(tokenPayload); // Add the token to the new table
-						showAlert('User created successfully!', 'success'); // Show success message
+						showAlert('User Created Successfully', 'success'); // Show success message
 
 						await storeValue("signUpRightHolderName",Input3.text);
 						await storeValue("signUpRightHolderEmail",Input4.text);
@@ -117,7 +117,7 @@ export default {
 				}
 			}
 			else{
-				showAlert('User already created, try different EmailAddress', 'warning'); // Show success message
+				showAlert('User already created, try different Email Address.', 'warning'); // Show success message
 				await closeModal(Modal1.name);
 				await resetWidget(Modal1.name);
 			}

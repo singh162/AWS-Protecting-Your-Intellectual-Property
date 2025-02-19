@@ -31,7 +31,7 @@ export default {
 			resetWidget("Input16Copy1");
 
 			// Notify the user of success
-			showAlert("Password updated successfully!", "success");
+			showAlert("Password Updated Successfully", "success");
 			closeModal(Modal9.name)
 		} catch (error) {
 			// Handle any unexpected errors

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 119,
+  "bottomRow": 121,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -41,7 +41,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 121,
+  "originalBottomRow": 119,
   "originalTopRow": 112,
   "overflow": "NONE",
   "parentColumnSpace": 12.15625,
