@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 110,
+  "bottomRow": 112,
   "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "TERTIARY",
@@ -55,7 +55,7 @@
   ],
   "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
   "tooltip": "Please upload a file with one of the following formats:  JPG, or PNG or PDF. The maximum file size allowed is 5MB. Files exceeding this limit cannot be uploaded.",
-  "topRow": 106,
+  "topRow": 108,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
   "widgetId": "o108mcoql7",

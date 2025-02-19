@@ -2,7 +2,7 @@
   "allowedFileTypes": "[\n  \"image/jpeg\",\n  \".png\",\n\t\".pdf\"\n]",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 95,
+  "bottomRow": 97,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "displayName": "FilePicker",
@@ -65,7 +65,7 @@
     "Inputs"
   ],
   "thumbnailSVG": "/static/media/thumbnail.164363adea04c44e54b1fd47657a579e.svg",
-  "topRow": 91,
+  "topRow": 93,
   "type": "FILE_PICKER_WIDGET_V2",
   "version": 1,
   "widgetId": "rcmfuwc6jy",
