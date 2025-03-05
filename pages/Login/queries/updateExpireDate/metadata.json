@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE test_taoq_reach.rightHolder\nSET expire_at = '{{moment().add(2, 'hours').format('YYYY-MM-DD HH:mm:ss')}}'\nWHERE id = '{{this.params.id}}';",
+      "body": "UPDATE test_taoq_reach.rightHolder\nSET expire_at = '{{moment().add(2, \"hours\").format(\"YYYY-MM-DD HH:mm:ss\")}}'\nWHERE id = '{{this.params.id}}';",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

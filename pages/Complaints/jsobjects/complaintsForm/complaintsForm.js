@@ -154,9 +154,9 @@ export default {
 				this.resetWidgets();
 			} else {
 				await sendComplaintsEmail.run();
-				showAlert("Complaint Email has been Successfully Submitted", "success");
 				this.resetForm();
-				showAlert("All forms have been Successfully Submitted", "success");
+				showAlert("Complaint(s) has been Successfully Submitted", "success");
+				showAlert("An Email has been sent to the SAIP with the details of your Submitted Complaint(s)", "success");
 				resetWidget("Select3",true);
 				closeModal(Modal2.name);
 			}

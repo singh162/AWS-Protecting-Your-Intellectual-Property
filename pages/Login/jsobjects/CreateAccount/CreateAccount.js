@@ -81,7 +81,7 @@ export default {
 					username: Input3.text,
 					password_hash: passwordHash,  // Ensure this is properly hashed
 					email: Input4.text,
-					expire_at: moment().add(2, 'hours').format('YYYY-MM-DD HH:mm:ss'),
+					expire_at: moment().add(2, "hours").format("YYYY-MM-DD HH:mm:ss"),
 					inserted_at: moment().format('YYYY-MM-DD HH:mm:ss'),
 					updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
 				};
