@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 40,
+  "bottomRow": 42,
   "boxShadow": "none",
   "buttonColor": "#078467",
   "buttonVariant": "PRIMARY",
@@ -41,8 +41,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onClick": "{{showModal(Modal1.name).then(() => {\n  resetWidget(\"Modal1\", true);\n});}}",
-  "originalBottomRow": 40,
-  "originalTopRow": 36,
+  "originalBottomRow": 42,
+  "originalTopRow": 38,
   "parentColumnSpace": 9.65267562866211,
   "parentId": "qt42bl9w7i",
   "parentRowSpace": 10,
@@ -61,7 +61,7 @@
   ],
   "text": "Sign Up",
   "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
-  "topRow": 36,
+  "topRow": 38,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "zlma3rhejg",

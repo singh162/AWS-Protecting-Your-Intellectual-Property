@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6773c710c83f61054013bc2b_022cac55-8042-4c61-b1c3-63db42d3224f",
+  "id": "Login_NavigateToExternalUrl",
+  "unpublishedCollection": {
+    "name": "NavigateToExternalUrl",
+    "pageId": "Login",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
