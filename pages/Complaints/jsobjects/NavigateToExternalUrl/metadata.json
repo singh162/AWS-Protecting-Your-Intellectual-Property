@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6773c710c83f61054013bc2b_263297d1-68f0-43dd-b068-bc170f486b87",
+  "id": "Complaints_NavigateToExternalUrl",
+  "unpublishedCollection": {
+    "name": "NavigateToExternalUrl",
+    "pageId": "Complaints",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
